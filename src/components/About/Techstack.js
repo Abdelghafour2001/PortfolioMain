@@ -37,13 +37,25 @@ function Techstack() {
         <DiReact />
         <h6>React.js</h6>
       </Col>
+<Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+        <h6>C++</h6>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <h6>Mongodb</h6>
       </Col>
+<Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+        <h6>Node.js</h6>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
         <h6>Java</h6>
+      </Col>
+ <Col xs={4} md={2} className="tech-icons">
+        <SiNeo4J />
+        <h6>Neo4j</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
