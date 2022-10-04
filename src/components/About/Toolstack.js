@@ -5,7 +5,6 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiVmware,
-  SiAnaconda,
   SiDocker,
   SiApachekafka,
   SiApachespark,
@@ -23,6 +22,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <h6>VS code</h6>
+      </Col>
+ <Col xs={4} md={2} className="tech-icons">
+        <SiLinux />
+        <h6>Linux</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
