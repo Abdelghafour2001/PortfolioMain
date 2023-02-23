@@ -10,7 +10,7 @@ import fraud from "../../Assets/Projects/fraud.png";
 import attendance from "../../Assets/Projects/attendance.png";
 import jobma from "../../Assets/Projects/jobma.png";
 import curlies from "../../Assets/Projects/Curlies.jpeg";
-import satoru from "../../Assets/Projects/Satoru.jpeg";
+import satoru from "../../Assets/Projects/Satoru.png";
 
 
 function Projects() {
