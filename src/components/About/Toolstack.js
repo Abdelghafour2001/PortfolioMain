@@ -5,11 +5,14 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiVmware,
+  SiAnaconda,
   SiDocker,
   SiApachekafka,
   SiApachespark,
   SiXampp,
   SiHeroku,
+  SiArduino,
+  SiPowerbi,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -23,9 +26,13 @@ function Toolstack() {
         <SiVisualstudiocode />
         <h6>VS code</h6>
       </Col>
- <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-        <h6>Linux</h6>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi />
+        <h6>Power BI</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArduino />
+        <h6>Arduino</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
