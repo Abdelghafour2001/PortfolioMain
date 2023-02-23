@@ -12,7 +12,7 @@ function Github() {
         username="flagbug"
         blockSize={15}
         blockMargin={5}
-        color="#2D82B7"
+        color="#0d6efd"
         fontSize={16}
       />
     </Row>
