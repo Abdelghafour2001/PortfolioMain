@@ -10,6 +10,8 @@ import fraud from "../../Assets/Projects/fraud.png";
 import attendance from "../../Assets/Projects/attendance.png";
 import jobma from "../../Assets/Projects/jobma.png";
 import curlies from "../../Assets/Projects/Curlies.jpeg";
+import satoru from "../../Assets/Projects/Satoru.jpeg";
+
 
 function Projects() {
   return (
@@ -30,6 +32,15 @@ function Projects() {
               title="Cars Sales"
               description="A template of a wbsite for selling and buying both used and new cars using HTML, CSS and Js only with possibility to view cars informations and react to posts. Visit website for a better view."
               link="https://abdelghafour2001.github.io/CarsSales/"
+            />
+          </Col>
+ <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={satoru}
+              isBlog={false}
+              title="Satoru Goju Themed Portfolio"
+              description="A portfolio built using React.js inspired from the anime Jujutsu Kaisen. Th e portfolio contains 5 simple components in a single page."
+              link="https://satorugojo.netlify.app/"
             />
           </Col>
         <Col md={4} className="project-card">
