@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Abdelghafour </span>
             from <span className="purple"> Morocco.</span>
-            <br />I am a junior developer, recently graduated with a bachelor degree in BIG DATA and Informations systems engineering
+            <br />I am a junior Fullstack developer, Actually studying for a Master's Degree in Big Data and IoT at ENSAM Casablanca, with a bachelor degree in BIG DATA and Informations systems engineering
             from the Higher Institute of Technology in Sale, Morocco.
             <br />
             <br />
