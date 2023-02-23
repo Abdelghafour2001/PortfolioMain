@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
@@ -12,7 +11,7 @@ import {
 } from "react-icons/di";
 import {
   SiMicrosoftsqlserver,
-  SiNeo4J,
+  
   SiCsharp,
   SiAngularjs,
   SiOracle,
