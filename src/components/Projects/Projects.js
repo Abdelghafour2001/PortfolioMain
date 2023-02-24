@@ -11,6 +11,7 @@ import attendance from "../../Assets/Projects/attendance.png";
 import jobma from "../../Assets/Projects/jobma.png";
 import curlies from "../../Assets/Projects/Curlies.jpeg";
 import satoru from "../../Assets/Projects/Satoru.png";
+import taskm from "../../Assets/Projects/7.png";
 
 
 function Projects() {
@@ -50,6 +51,15 @@ function Projects() {
               title="Fraud detection with ML and Graph"
               description="Designing and developing a machine learning model, based on some data for transactions, in order to automate fraud detection, with the use of Neo4j graph database."
               link="https://github.com/Abdelghafour2001/fraud-detection-ML"
+            />
+          </Col>
+ <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taskm}
+              isBlog={false}
+              title="MERN TaskManager"
+              description="A Mern stack application to manage and schedule tasks for Employees and teams with Notification System."
+              link="https://github.com/Abdelghafour2001/MERN-Company-TasksManager"
             />
           </Col>
           <Col md={4} className="project-card">
