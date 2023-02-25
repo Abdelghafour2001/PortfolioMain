@@ -12,6 +12,7 @@ import jobma from "../../Assets/Projects/jobma.png";
 import curlies from "../../Assets/Projects/Curlies.jpeg";
 import satoru from "../../Assets/Projects/Satoru.png";
 import taskm from "../../Assets/Projects/7.png";
+import xogame from "../../Assets/Projects/xogame.png";
 
 
 function Projects() {
@@ -51,6 +52,15 @@ function Projects() {
               title="Fraud detection with ML and Graph"
               description="Designing and developing a machine learning model, based on some data for transactions, in order to automate fraud detection, with the use of Neo4j graph database."
               link="https://github.com/Abdelghafour2001/fraud-detection-ML"
+            />
+          </Col>
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={xogame}
+              isBlog={false}
+              title="Simple TIC TAC TOE/ XO game with socket.io"
+              description="A simple Tic Tac Toe Game using react.js and socket.io where palyers can join a room and compete agaisnst each others."
+              link="https://github.com/Abdelghafour2001/TICTACTOE-XO-Game-with-react.js-and-socket.io"
             />
           </Col>
  <Col md={4} className="project-card">
