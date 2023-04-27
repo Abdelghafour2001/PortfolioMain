@@ -13,6 +13,7 @@ import curlies from "../../Assets/Projects/Curlies.jpeg";
 import satoru from "../../Assets/Projects/Satoru.png";
 import taskm from "../../Assets/Projects/7.png";
 import xogame from "../../Assets/Projects/xogame.png";
+import atlas from "../../Assets/Projects/atlas.jpg";
 
 
 function Projects() {
@@ -27,6 +28,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={atlas}
+              isBlog={false}
+              title="PC Store managament system"
+              description="Designing and developing a desktop app to manage all the services inside a PC repairs and sales store, with an employee and storage managament system added to it"
+              link="https://github.com/Abdelghafour2001/PCstore"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
