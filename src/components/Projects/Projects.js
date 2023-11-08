@@ -14,6 +14,7 @@ import satoru from "../../Assets/Projects/Satoru.png";
 import taskm from "../../Assets/Projects/7.png";
 import xogame from "../../Assets/Projects/xogame.png";
 import atlas from "../../Assets/Projects/atlas.jpg";
+import anika from "../../Assets/Projects/anika.png";
 
 
 function Projects() {
@@ -28,6 +29,34 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={anika}
+                    isBlog={false}
+                    title="Streaming App using Spring And Angular"
+                    description="Worked on creating a streaming app for streaming movies, animes and series with a mini Blog for movie reviews, Using SPRING  and Angular with MOngoDB, we applied webscraping and this party APIs to get external Data and play the movies on our app with multiple quality settings."
+                    link="https://github.com/Abdelghafour2001/SpringApi/blob/master/stream.pdf"
+                />
+            </Col>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={emotion}
+                    isBlog={false}
+                    title="Face Recognition and Emotion Detection"
+                    description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
+              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+                    link="https://github.com/Abdelghafour2001/Face-and-emotion-detection"
+                />
+            </Col>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={fraud}
+                    isBlog={false}
+                    title="Fraud detection with ML and Graph"
+                    description="Designing and developing a machine learning model, based on some data for transactions, in order to automate fraud detection, with the use of Neo4j graph database."
+                    link="https://github.com/Abdelghafour2001/fraud-detection-ML"
+                />
+            </Col>
            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={atlas}
@@ -55,15 +84,7 @@ function Projects() {
               link="https://satorugojo.netlify.app/"
             />
           </Col>
-        <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fraud}
-              isBlog={false}
-              title="Fraud detection with ML and Graph"
-              description="Designing and developing a machine learning model, based on some data for transactions, in order to automate fraud detection, with the use of Neo4j graph database."
-              link="https://github.com/Abdelghafour2001/fraud-detection-ML"
-            />
-          </Col>
+
 <Col md={4} className="project-card">
             <ProjectCard
               imgPath={xogame}
@@ -118,16 +139,7 @@ function Projects() {
               link="https://github.com/Abdelghafour2001/JobMa"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/Abdelghafour2001/Face-and-emotion-detection"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={curlies}
