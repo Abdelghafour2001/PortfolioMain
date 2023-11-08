@@ -1,18 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiVmware,
-  SiAnaconda,
-  SiDocker,
-  SiApachekafka,
-  SiApachespark,
-  SiXampp,
-  SiHeroku,
-  SiArduino,
-  SiPowerbi,
+    SiLinux,
+    SiVisualstudiocode,
+    SiPostman,
+    SiVmware,
+    SiAnaconda,
+    SiDocker,
+    SiApachekafka,
+    SiTalend,
+    SiApachespark,
+    SiXampp,
+    SiHeroku,
+    SiArduino,
+    SiPowerbi, SiIntellijidea, SiUnity,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,6 +23,14 @@ function Toolstack() {
         <SiDocker />
         <h6>Dockerr</h6>
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiIntellijidea />
+            <h6>IntellijIdea</h6>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiUnity />
+            <h6>Unity</h6>
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <h6>VS code</h6>
@@ -42,6 +51,10 @@ function Toolstack() {
         <SiApachekafka />
         <h6>Apache Kafka</h6>
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiTalend />
+            <h6>Talend</h6>
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVmware />
         <h6>VMware</h6>

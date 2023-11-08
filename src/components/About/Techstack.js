@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
+
   DiReact,
   DiMongodb,
   DiPython,
@@ -10,14 +11,15 @@ import {
   DiLaravel,
 } from "react-icons/di";
 import {
-  SiMicrosoftsqlserver,
-  
-  SiCsharp,
-  SiAngularjs,
-  SiOracle,
-  SiDotnet,
-  SiSpring,
-  SiArduino,
+    SiMicrosoftsqlserver,
+    SiTensorflow,
+    SiOpencv,
+    SiCsharp,
+    SiAngularjs,
+    SiOracle,
+    SiDotnet,
+    SiSpring,
+    SiArduino, SiKeras, SiFirebase, SiAndroid,
 
 } from "react-icons/si";
 
@@ -32,10 +34,30 @@ function Techstack() {
         <SiAngularjs />
         <h6>Angular</h6>
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiJavascript1 />
+            <h6>Javascript</h6>
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-        <h6>Javascript</h6>
+        <SiTensorflow />
+        <h6>Tensorflow</h6>
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiKeras />
+            <h6>Keras</h6>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiOpencv />
+            <h6>OpenCV</h6>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiFirebase />
+            <h6>Firebase</h6>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiAndroid />
+            <h6>Android</h6>
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiLaravel />
         <h6>PHP Laravel</h6>
