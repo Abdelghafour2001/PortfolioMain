@@ -15,6 +15,7 @@ import taskm from "../../Assets/Projects/7.png";
 import xogame from "../../Assets/Projects/xogame.png";
 import atlas from "../../Assets/Projects/atlas.jpg";
 import anika from "../../Assets/Projects/anika.png";
+import custComplain from "../../Assets/Projects/text-Mining.png"
 
 
 function Projects() {
@@ -46,6 +47,15 @@ function Projects() {
                     description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
                     link="https://github.com/Abdelghafour2001/Face-and-emotion-detection"
+                />
+            </Col>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={custComplain}
+                    isBlog={false}
+                    title="Customer Complains classification"
+                    description="Used Text Mining with multiple techniques to create a model that can classify customer complaints, we traine the model using Decision tree algorithm and Random Forestn with features selection : Genetic Algos, Mutual Info, Info Gain. We managed after tuning the parameters to get a maximum accuray of 82%"
+                    link="https://github.com/Abdelghafour2001/Classification-of-Consumer-Complaints-usingDecision-tree-and-Genetic-algorithms/"
                 />
             </Col>
             <Col md={4} className="project-card">
