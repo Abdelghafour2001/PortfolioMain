@@ -16,6 +16,7 @@ import xogame from "../../Assets/Projects/xogame.png";
 import atlas from "../../Assets/Projects/atlas.jpg";
 import anika from "../../Assets/Projects/anika.png";
 import custComplain from "../../Assets/Projects/text-Mining.png"
+import warped from "../../Assets/Projects/warped.png"
 
 
 function Projects() {
@@ -47,6 +48,16 @@ function Projects() {
                     description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
                     link="https://github.com/Abdelghafour2001/Face-and-emotion-detection"
+                />
+            </Col>
+
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={Warped}
+                    isBlog={false}
+                    title="Document Detection and Warping Mini Project"
+                    description="This mini project focuses on detecting documents in a video stream or image using computer vision techniques and applying a perspective transformation to obtain a flattened view of the document. The primary goal is to automate the process of identifying documents within a scene, even when the documents are tilted or skewed, and then rectify them to appear as if viewed from directly above."
+                    link="https://github.com/Abdelghafour2001/Document_Warping_OpenCV"
                 />
             </Col>
             <Col md={4} className="project-card">
