@@ -17,6 +17,7 @@ import atlas from "../../Assets/Projects/atlas.jpg";
 import anika from "../../Assets/Projects/anika.png";
 import custComplain from "../../Assets/Projects/text-Mining.png"
 import warped from "../../Assets/Projects/warped.png"
+import rainforest from "../../Assets/Projects/rain.jpg"
 
 
 function Projects() {
@@ -76,6 +77,17 @@ function Projects() {
                     title="Fraud detection with ML and Graph"
                     description="Designing and developing a machine learning model, based on some data for transactions, in order to automate fraud detection, with the use of Neo4j graph database."
                     link="https://github.com/Abdelghafour2001/fraud-detection-ML"
+                />
+            </Col>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={rainforest}
+                    isBlog={false}
+                    title="Eco Acoustic Species detection Project"
+                    description="Developing machine learning models for the automated detection of bird
+                    and frog species in tropical soundscapes
+                    by creating a system that can accurately identify species with limited training data."
+                    link="https://github.com/Abdelghafour2001/Project-Introduction-Eco-Acoustic-Species-Detection"
                 />
             </Col>
            <Col md={4} className="project-card">
