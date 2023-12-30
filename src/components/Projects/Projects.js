@@ -54,7 +54,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
                 <ProjectCard
-                    imgPath={Warped}
+                    imgPath={warped}
                     isBlog={false}
                     title="Document Detection and Warping Mini Project"
                     description="This mini project focuses on detecting documents in a video stream or image using computer vision techniques and applying a perspective transformation to obtain a flattened view of the document. The primary goal is to automate the process of identifying documents within a scene, even when the documents are tilted or skewed, and then rectify them to appear as if viewed from directly above."
